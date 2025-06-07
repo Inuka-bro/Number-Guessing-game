@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100 border-success">
+        <div class="m-4">
+            <h1>Number Guessing</h1>
+            <p id="h1Lbl" class="">You have 3 chances</p>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div id="img"><img src="img/giphy.webp" class="card-img-top" alt="" srcset=""></div>
+            <div class="card-body">
+                <h5 class="card-title">Enter your guess (1-10) Number</h5>
+                <input type="text" id="txtNum" class="w-50">
+                <input type="button" value="Guess" onclick="clickAction()" class="btn btn-primary m-2" placeholder="Enter your guess (1-10)">
+                
+            </div>
+        </div>
+    </div>
+    <!-- <div id="img"></div>
+    <input type="text" id="txtNum">
+    <input type="button" value="submit" onclick="clickAction()"> -->
+    <script src="app.js"></script>
+    
+
+</body>
+
+</html>
