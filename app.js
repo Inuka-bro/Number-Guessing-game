@@ -34,13 +34,13 @@ function clickAction() {
             if (RandomNum < GuessNum) {
                 document.getElementById("img").innerHTML = '<img src="img/gameover.gif" class="card-img-top" alt="" srcset="">';
                 lblH1.innerHTML = "Game over,You have no chances";
-                return;
+                
 
             }
             else if (RandomNum > GuessNum) {
                 document.getElementById("img").innerHTML = '<img src="img/gameover.gif" class="card-img-top" alt="" srcset="">';
                 lblH1.innerHTML = "Game over,You have no chances";
-                return;
+                
             }
             else if (RandomNum == GuessNum) {
                 document.getElementById("img").innerHTML = '<img src="img/200.webp" class="card-img-top" alt="" srcset="">';
